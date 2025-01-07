@@ -1,1 +1,15 @@
+Install VirtualBox (sudo apt install virtualbox), create a new virtual machine, and load the .vdi file by selecting "Use an existing virtual hard disk file."
+Inside the VM, write your C program using nano sum.c to calculate the sum of numbers from 1 to 10.
+Install the RISC-V toolchain, build it, and add it to PATH .
+Compile the program (riscv64-unknown-elf-gcc sum.c -o sum) and run it.
 
+c code:
+#include <stdio.h>
+
+int main() {
+    // Loop to print numbers from 1 to 10
+    for (int i = 1; i <= 10; i++) {
+        printf("%d\n", i);
+    }
+    return 0;
+} 
