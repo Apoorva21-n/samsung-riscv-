@@ -9,7 +9,8 @@ below are the snapshots of the program
 ![output](https://github.com/user-attachments/assets/227c8e38-48bd-4bd2-bf69-4e689d7a14a1)
 ![risc](https://github.com/user-attachments/assets/37b88885-e68d-46e7-826c-cc8c54376b84)
 
-task 2
+Task 2:
+
 I created a basic C program that uses recursion to determine the factorial of a given number. 
 Targeting the RISC-V architecture, the software was compiled using the spike simulator and the RISC-V GCC compiler. In particular, I compiled the code with optimization settings -O1 and -Ofast using the commands riscv64-unknown-elf-gcc -O1 -o factorial_O1 factorial.c and riscv64-unknown-elf-gcc -Ofast -o factorial_Ofast factorial.c. 
 The commands riscv64-unknown-elf-objdump -d factorial_O1 > dump_O1.txt and riscv64-unknown-elf-objdump -d factorial_Ofast > dump_Ofast.txt were then used to create the object dumps
