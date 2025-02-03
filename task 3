@@ -1,0 +1,14 @@
+Instructions | Type
+
+lui          | U-Type
+addi         | I-Type
+sd           | I-Type
+li           | I-Type
+ret          | I-Type
+jal          | I-Type
+ld           | I-Type
+auipc        | I-Type
+beqz         | I-Type
+j            | I-Type
+sub          | I-Type
+lw           | I-Type
