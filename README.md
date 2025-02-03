@@ -21,3 +21,8 @@ The commands riscv64-unknown-elf-objdump -d factorial_O1 > dump_O1.txt and riscv
 
 The main distinction between the object dumps is that the recursive function is present in the -O1 dump but not in the -Ofast dump, where the factorial result (120 for the input 5) is loaded straight into the appropriate registers. 
 This distinction is shown in the screenshots: Whereas the -Ofast dump lacks a recursive function and the result is hardcoded into the main function, the -O1 dump defines and calls the factorial function from the main function. 
+
+Task 3:
+![Screenshot 2025-01-18 001102](https://github.com/user-attachments/assets/db2825ec-6fec-4656-9881-390f7bb6e73c)
+This document contains the extracted RISC-V instructions from the disassembled `riscv-objdump` output. The instructions are categorized based on their respective formats: R-type, I-type, S-type, B-type, U-type, and J-type.
+To complete the analysis, 15 unique RISC-V instructions have been identified from the disassembly output. Each instruction is categorized according to its format, and its 32-bit binary representation is decoded to extract key fields such as opcode, funct3, funct7, register fields, and immediate values where applicable
