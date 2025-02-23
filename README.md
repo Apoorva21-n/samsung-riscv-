@@ -1,2 +1,2 @@
-# samsung-riscv
+# Samsung-riscv
 
